@@ -1,5 +1,5 @@
 
-#Select the proper k10multicluster package before running this script visiting https://github.com/kastenhq/external-tools/releases
+echo -e "\033[0;101m Select the proper k10multicluster package before running/adapting this script visiting https://github.com/kastenhq/external-tools/releases\e[0m"
 
 wget https://github.com/kastenhq/external-tools/releases/download/6.0.7/k10multicluster_6.0.7_linux_amd64.tar.gz
 tar -xvf k10multicluster_6.0.7_linux_amd64.tar.gz 
