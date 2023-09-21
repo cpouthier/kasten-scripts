@@ -48,6 +48,6 @@ else
         echo ""
     else
         echo "Sorry I didn't understand your answer..."
-        curl -s https://github.com/cpouthier/kasten-scripts.git | bash
+#        curl -s https://github.com/cpouthier/kasten-scripts.git | bash
     fi
 fi
