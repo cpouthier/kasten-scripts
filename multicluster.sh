@@ -33,7 +33,7 @@ echo -e "\033[0;102m Enter your primary cluster ingress path URL and press Enter
 echo ""
 read primary_ingress_path_url < /dev/tty
 echo ""
-curl -s https://github.com/cpouthier/kasten-scripts.git | bash
+#curl -s https://github.com/cpouthier/kasten-scripts.git | bash
 
 
 #tests
