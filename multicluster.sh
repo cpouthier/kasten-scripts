@@ -15,6 +15,7 @@ echo "Decompressing the package..."
 tar -xvf k10multicluster*.tar.gz 
 mv k10multicluster /usr/local/bin/k10multicluster
 rm k10multicluster_*.tar.gz
+clear
 echo ""
 echo "Get contexts from kubeconfig..."
 echo ""

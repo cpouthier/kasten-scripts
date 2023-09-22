@@ -2,7 +2,7 @@
 clear 
 echo ""
 echo ""
-echo "Do you want to setup a secondary cluster and enable Multi-Cluster license management? (type yes or no and hit Enter)"
+echo -e "\033[0;101m Do you want to setup a secondary cluster and enable Multi-Cluster license management? (type yes or no and hit Enter)\e[0m"
 read choice < /dev/tty
 echo ""
 
