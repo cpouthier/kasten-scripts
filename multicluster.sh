@@ -33,17 +33,4 @@ echo -e "\033[0;102m Enter your primary cluster ingress path URL and press Enter
 echo ""
 read primary_ingress_path_url < /dev/tty
 echo ""
-#curl -s https://github.com/cpouthier/kasten-scripts.git | bash
-
-
-#tests
-clear
-echo "valide avec ds"
-read testvar < /dev/tty
-if [ "$testvar" = ds ]; then
-        clear
-        echo "bien ouèj" 
-    else
-        clear
-        echo "pas de bol"
-fi
+curl -s https://raw.githubusercontent.com/cpouthier/kasten-scripts/main/multicluster_restart.sh | bash
